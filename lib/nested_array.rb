@@ -41,18 +41,9 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   
   sorted_matrix = [
-    ["Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"], 
-[ "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"]
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"], 
+[ "Asparagus", "Avocadoes","Grapes", "Potatoes", "Strawberries" ]
     ]
-end
 end
 
 def matrix_lookup(matrix, row, column)
